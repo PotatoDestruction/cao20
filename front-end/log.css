@@ -1,0 +1,138 @@
+* {
+    font-family: sans-serif;
+}
+header {
+    width: 1200px;
+    margin: 0 auto;
+    border-bottom: 1px solid gray;
+}
+#img-wrapper{
+    display: flex;
+}
+img {
+    align-self: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    align-self: center;
+    padding: 30px;
+    color: orange;
+    font-weight: 700;
+}
+nav a:hover {
+    color: red;
+}
+
+#nav-links {
+    display: flex;
+
+}
+
+img {
+    margin-left: 100px;
+}
+
+.title-button-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+}
+h1 {
+    margin: 0;
+}
+.title-wrap, .button-wrap {
+    align-self: center;
+}
+.title-wrap {
+    margin-left: 100px;
+}
+.button-wrap {
+    margin-right: 50px;
+}
+.button-wrap button {
+    padding: 15px;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+}
+
+.button-wrap button:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+#pet-log-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    gap: 47px;
+    margin-top: 50px;
+}
+#pet-log-container .logContainer {
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgba(142, 142, 142, 0.5);
+    text-align: center;
+}
+.description, .dob {
+    font-weight: 700;
+    padding: 5px;
+}
+.description {
+    margin-top: 40px;
+}
+#display-container {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+#check-container {
+   display: flex;
+}
+
+
+#logs-check, #prescriptions-check {
+    align-self: center;
+    margin: 5px;
+    padding: 10px 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+#logs-check:hover, #prescriptions-check:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+#log-uncheked {
+    align-self: center;
+    margin: 5px;
+    padding: 10px 10px;
+    background-color: white;
+    border: 1px solid orange;
+    color: orange;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.comment {
+    margin-top: 60px;
+}

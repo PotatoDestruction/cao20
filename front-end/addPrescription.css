@@ -1,0 +1,44 @@
+* {
+    font-family: sans-serif;
+}
+header {
+    width: 1200px;
+    margin: 0 auto;
+    border-bottom: 1px solid gray;
+}
+#img-wrapper{
+    display: flex;
+}
+img {
+    align-self: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    align-self: center;
+    padding: 30px;
+    color: orange;
+    font-weight: 700;
+}
+nav a:hover {
+    color: red;
+}
+
+#nav-links {
+    display: flex;
+
+}
+
+img {
+    margin-left: 100px;
+}
+
+form {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
